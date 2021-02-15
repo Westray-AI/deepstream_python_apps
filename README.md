@@ -1,6 +1,11 @@
 # DeepStream Python Apps
 
-This repository contains Python bindings and sample applications for the [DeepStream SDK](https://developer.nvidia.com/deepstream-sdk).  
+This repository contains Python bindings and sample applications for the [DeepStream SDK](https://developer.nvidia.com/deepstream-sdk).
+
+Examples updated by Westray to work with the NVIDIA [DeepStream NGC container](https://ngc.nvidia.com/catalog/containers/nvidia:deepstream). A modified Docker image with the python bindings installed in the default python3 is provided in the [Dockerfile](/Dockerfile). It's important to pull the Docker image with tags ending in -devel or -samples that include the sample code and data.
+
+List of sample apps updated to work with Docker container:
+- [X] [notebooks/deepstream_test_1.ipynb](notebooks/deepstream_test_1.ipynb)
 
 SDK version supported: 5.0  
 
